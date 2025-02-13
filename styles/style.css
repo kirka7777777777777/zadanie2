@@ -1,23 +1,56 @@
-body { font-family: sans-serif;
-    color: #D1E3DD;
-    background-color: #332F31;
+body {
+    color: white;
 }
-.column { display: inline-block; width: 30%; padding: 10px; vertical-align: top; }
-.note-card { border: 1px solid cornflowerblue; padding: 5px; margin-bottom: 5px; }
-.blocked input[type="checkbox"] { opacity: 0.5; pointer-events: none; }
-.add-note-form { margin-top: 10px; }
-.add-note-form input { margin-bottom: 5px; }
-
-.column h2 {
-    background-color: cornflowerblue;
-    border-radius: 40px;
-    padding: 20px;
-}
-.column h3 {
-    background-color: #575366;
-    border-radius: 30px;
+.note-columns {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
     padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 10px auto;
 }
-.column {
-    background-color: #332F31;
+
+.note-column {
+    background-color: #263238;
+    border: 2px solid cornflowerblue;
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1;
 }
+
+.note-column h2 {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+
+.note-card {
+    border: 1px solid #00BCD4;
+    background-color: #37474F;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+.note-card h3 {
+    background-color: #7E57C2;
+    color: #FFFFFF;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.add-note-form {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#check {
+    visibility: hidden;
+}
+

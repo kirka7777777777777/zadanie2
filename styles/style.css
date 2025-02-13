@@ -1,0 +1,24 @@
+body { font-family: sans-serif;
+    color: #D1E3DD;
+    background-color: #332F31;
+}
+.column { display: inline-block; width: 30%; padding: 10px; vertical-align: top; }
+.note-card { border: 1px solid cornflowerblue; padding: 5px; margin-bottom: 5px; }
+.blocked input[type="checkbox"] { opacity: 0.5; pointer-events: none; }
+.add-note-form { margin-top: 10px; }
+.add-note-form input { margin-bottom: 5px; }
+
+.column h2 {
+    background-color: cornflowerblue;
+    border-radius: 40px;
+    padding: 20px;
+}
+.column h3 {
+    background-color: #575366;
+    border-radius: 30px;
+    padding: 15px;
+}
+.column {
+    background-color: #332F31;
+
+}

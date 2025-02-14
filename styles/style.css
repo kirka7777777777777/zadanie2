@@ -28,7 +28,7 @@ body {
 }
 
 .note-card {
-    border: 1px solid #00BCD4;
+    border: 1px solid #2196F3;
     background-color: #37474F;
     padding: 10px;
     margin-bottom: 10px;
@@ -37,7 +37,7 @@ body {
 
 
 .note-card h3 {
-    background-color: #7E57C2;
+    background-color: #5bbdff;
     color: #FFFFFF;
     padding: 5px;
     margin-bottom: 5px;

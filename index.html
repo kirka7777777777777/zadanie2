@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Note App</title>
+    <script defer src="https://unpkg.com/vue@2"></script>
+    <script defer src="js/vue.min.js"></script>
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+<div id="app">
+    <div class="note-columns">
+        <note-column
+                v-for="column in [1, 2, 3]"
+                :key="column"
+                :column="column"
+                :notes="getNotesForColumn(column)"
+                :isBlocked="isBlocked"
+                @update-note="updateNote"></note-column>
+    </div>
+    <note-input @add-note="addNote"></note-input>
+</div>
+</body>
+</html>

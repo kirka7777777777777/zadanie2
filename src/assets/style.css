@@ -1,0 +1,86 @@
+
+.task-column {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 8px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    width: 350px;
+}
+.task-list {
+    margin-bottom: 16px;
+}
+body {
+    color: #e67e67;
+}
+.kanban-board {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+.kanban-column {
+    background-color: #FBF2ED;
+
+    border: #8092aa;
+    border-radius: 20px;
+}
+button {
+    background-color: #CDD5C6;
+    border: none;
+    color: #e67e67;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+form input, textarea {
+    background-color: #CDD5C6;
+    border: none;
+    color: #D99789;
+    padding: 15px 32px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.task-card {
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    transition: transform 0.2s;
+}
+
+.task-card:hover {
+    transform: scale(1.02);
+}
+
+.task-card.planned {
+    background-color: #e3dfdf;
+}
+
+.task-card.inProgress {
+    background-color: #cbd7e1;
+}
+
+.task-card.testing {
+    background-color: #d0e0e4;
+}
+
+.task-card.completed {
+    background-color: #d5e0ec;
+}
+
+.task-card.overdue {
+    background-color: #e6d0ce;
+}
